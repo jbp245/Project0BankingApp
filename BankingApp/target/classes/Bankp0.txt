@@ -1,0 +1,56 @@
+Bank Assignment
+Console application: 
+
+A registered user can login with their username and password 
+VERIFIEDx
+
+An unregistered user can register by creating a username and password 
+VERIFIEDx
+
+A superuser can:  
+  X view, 
+  X create, 
+  X update, and 
+  X delete all users.
+
+A user can view their own existing accounts and balances. 
+VERIFIEDx
+
+A user can create a new bank account.
+VERIFIEDx
+
+A user can delete an account if it is empty.  
+VERIFIED
+
+A user can add to or withdraw from an account. x
+
+A user can execute multiple deposits or withdrawals in a session. x
+
+A user can logout.
+VERIFIED x 
+
+X  Use sequences to generate USER_ID and BANK_ACCOUNT_ID.x 
+
+~Provide validation messages through the console for all user actions. x 
+ 
+Use the DAO design pattern. 
+VERIFIEDx try and used tests
+
+Store database connection information in a properties file. 
+VERIFIED stored as system variable x
+
+Required technologies: 
+
+PL/SQL with at least one stored procedure, JDBC with prepared and callable statements,
+VERIFIED x
+ 
+Scanner for user input.
+VERIFIED x 
+
+Bonus: 
+
+  A user's transactions are recorded.
+
+  A user may view transaction history. 
+
+  JUnit tests on DAO methods.  
